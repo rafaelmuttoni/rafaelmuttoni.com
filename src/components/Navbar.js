@@ -1,5 +1,8 @@
+import Link from 'next/link'
 import {
   chakra,
+  Avatar,
+  AvatarBadge,
   Box,
   Container,
   Icon,
@@ -8,6 +11,8 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
+  Text,
+  Tooltip,
 } from '@chakra-ui/react'
 import { FaUser, FaLaptop, FaPhone, FaBars } from 'react-icons/fa'
 import ThemeToggler from 'components/ThemeToggler'
@@ -24,15 +29,35 @@ export default function Navbar() {
   return (
     <Box boxShadow="base">
       <Container
-        maxW="container.lg"
-        minH="60px"
+        maxW="container.md"
+        minH="75px"
         d="flex"
         justifyContent="space-between"
         alignItems="center"
       >
-        <Box>Rafael Muttoni</Box>
+        <Box d="flex" justifyContent="center" alignItems="center">
+          <Link href="/contact">
+            <a>
+              <Tooltip
+                label="Want to talk about a project? Hit me up!"
+                fontSize="md"
+              >
+                <Avatar
+                  name="Rafael Muttoni"
+                  src="/profile.jpeg"
+                  mr={3}
+                  transition="ease-in 200ms"
+                  _hover={{
+                    transform: 'scale(1.1)',
+                  }}
+                >
+                  <AvatarBadge boxSize="1em" bg="green.500" />
+                </Avatar>
+              </Tooltip>
+            </a>
+          </Link>
+        </Box>
         <Box>
-          <ThemeToggler mr={2} />
           <Menu>
             <MenuButton
               as={IconButton}
@@ -41,17 +66,18 @@ export default function Navbar() {
               variant="outline"
             />
             <MenuList>
-              <MenuItem minH="48px">
-                <Emoji emoji="👨🏻‍💻" /> about
+              <MenuItem minH="48px" fontWeight="bold">
+                <Emoji emoji="👨🏻‍💻" /> about me
               </MenuItem>
-              <MenuItem minH="48px">
+              {/* <MenuItem minH="48px" fontWeight="bold">
                 <Emoji emoji="🚀" /> projects
-              </MenuItem>
-              <MenuItem minH="48px">
-                <Emoji emoji="📱" /> contact
+              </MenuItem> */}
+              <MenuItem minH="48px" fontWeight="bold">
+                <Emoji emoji="📱" /> get in touch
               </MenuItem>
             </MenuList>
           </Menu>
+          <ThemeToggler ml={2} />
         </Box>
       </Container>
     </Box>
