@@ -18,7 +18,7 @@ export default function Greetings() {
         <Heading as="h2" size="xl">
           Projects
         </Heading>
-        <Menu ml={2} />
+        <Menu ml="auto" />
       </Box>
     </Box>
   )

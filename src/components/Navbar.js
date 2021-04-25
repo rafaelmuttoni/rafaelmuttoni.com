@@ -27,10 +27,15 @@ function Emoji({ emoji }) {
 
 export default function Navbar() {
   return (
-    <Box boxShadow="base">
+    <Box>
+      <Box
+        w="100%"
+        h="15px"
+        bgGradient="linear(to-r, brand.main, brand.secondary)"
+      />
       <Container
         maxW="container.md"
-        minH="75px"
+        minH="125px"
         d="flex"
         justifyContent="space-between"
         alignItems="center"
@@ -58,6 +63,7 @@ export default function Navbar() {
           </Link>
         </Box>
         <Box>
+          <ThemeToggler mr={2} />
           <Menu>
             <MenuButton
               as={IconButton}
@@ -77,7 +83,6 @@ export default function Navbar() {
               </MenuItem>
             </MenuList>
           </Menu>
-          <ThemeToggler ml={2} />
         </Box>
       </Container>
     </Box>

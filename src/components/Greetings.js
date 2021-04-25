@@ -18,7 +18,7 @@ export default function Greetings() {
       <Text fontSize="xl" mb={2}>
         I'm a Developer currently working on bootstrapped projects such as{' '}
         <Link href="/contact">
-          <ChakraLink color="teal.500">Terapeuta Pro.</ChakraLink>
+          <ChakraLink color="brand.main">Terapeuta Pro.</ChakraLink>
         </Link>
       </Text>
       <Box d="flex" justifyContent="flex-start" alignItems="center">

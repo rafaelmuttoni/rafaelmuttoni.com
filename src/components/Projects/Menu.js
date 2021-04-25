@@ -1,6 +1,6 @@
 import {
   Icon,
-  IconButton,
+  Button,
   Menu,
   MenuButton,
   MenuItem,
@@ -12,12 +12,15 @@ export default function ProjectsMenu({ ...rest }) {
   return (
     <Menu>
       <MenuButton
-        as={IconButton}
+        as={Button}
         aria-label="Options"
-        icon={<Icon as={FaFilter} />}
+        leftIcon={<Icon as={FaFilter} />}
         variant="outline"
+        bgGradient="linear(to-r, brand.main, brand.secondary)"
         {...rest}
-      />
+      >
+        Filters
+      </MenuButton>
       <MenuList>
         <MenuItem minH="48px" fontWeight="bold">
           Filtros
