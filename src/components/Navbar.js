@@ -11,10 +11,9 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
-  Text,
   Tooltip,
 } from '@chakra-ui/react'
-import { FaUser, FaLaptop, FaPhone, FaBars } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
 import ThemeToggler from 'components/ThemeToggler'
 
 function Emoji({ emoji }) {
@@ -28,11 +27,7 @@ function Emoji({ emoji }) {
 export default function Navbar() {
   return (
     <Box>
-      <Box
-        w="100%"
-        h="15px"
-        bgGradient="linear(to-r, brand.main, brand.secondary)"
-      />
+      <Box w="100%" h="15px" bg="theme.main" />
       <Container
         maxW="container.md"
         minH="125px"
@@ -75,9 +70,7 @@ export default function Navbar() {
               <MenuItem minH="48px" fontWeight="bold">
                 <Emoji emoji="👨🏻‍💻" /> about me
               </MenuItem>
-              {/* <MenuItem minH="48px" fontWeight="bold">
-                <Emoji emoji="🚀" /> projects
-              </MenuItem> */}
+
               <MenuItem minH="48px" fontWeight="bold">
                 <Emoji emoji="📱" /> get in touch
               </MenuItem>
