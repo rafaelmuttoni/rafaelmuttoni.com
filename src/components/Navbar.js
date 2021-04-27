@@ -67,13 +67,21 @@ export default function Navbar() {
               variant="outline"
             />
             <MenuList>
-              <MenuItem minH="48px" fontWeight="bold">
-                <Emoji emoji="👨🏻‍💻" /> about me
-              </MenuItem>
-
-              <MenuItem minH="48px" fontWeight="bold">
-                <Emoji emoji="📱" /> get in touch
-              </MenuItem>
+              <Link href="/">
+                <MenuItem minH="48px" fontWeight="bold">
+                  <Emoji emoji="🏠" /> home
+                </MenuItem>
+              </Link>
+              <Link href="/about">
+                <MenuItem minH="48px" fontWeight="bold">
+                  <Emoji emoji="👨🏻‍💻" /> about me
+                </MenuItem>
+              </Link>
+              <Link href="/contact">
+                <MenuItem minH="48px" fontWeight="bold">
+                  <Emoji emoji="📱" /> get in touch
+                </MenuItem>
+              </Link>
             </MenuList>
           </Menu>
         </Box>
