@@ -16,7 +16,14 @@ export default function ProjectsMenu({ ...rest }) {
         aria-label="Options"
         leftIcon={<Icon as={FaFilter} />}
         variant="outline"
-        bgGradient="linear(to-r, brand.main, brand.secondary)"
+        bg="theme.main"
+        color="white"
+        _hover={{
+          bg: 'theme.secondary',
+        }}
+        _active={{
+          bg: 'theme.secondary',
+        }}
         {...rest}
       >
         Filters
