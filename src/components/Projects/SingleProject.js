@@ -1,12 +1,16 @@
+import { useState } from 'react'
 import {
   chakra,
   Badge,
   Box,
+  Button,
   Heading,
+  Icon,
   LinkBox,
   LinkOverlay,
   Text,
 } from '@chakra-ui/react'
+import { FaChevronUp, FaChevronDown } from 'react-icons/fa'
 import Image from 'next/image'
 
 const ImageFromChakraFactory = chakra(Image, {
@@ -18,7 +22,9 @@ function ChakraImage({ ...rest }) {
 }
 
 export default function SingleProject({ project }) {
-  const { name, image, url, description, tags } = project
+  const { name, image, url, description, smallDescription, tags } = project
+
+  const [isTextVisible, setIsTextVisible] = useState(false)
 
   return (
     <LinkBox
@@ -51,7 +57,25 @@ export default function SingleProject({ project }) {
           </Badge>
         ))}
       </Box>
-      <Text>{description}</Text>
+
+      {!smallDescription && <Text>{description}</Text>}
+
+      {smallDescription && isTextVisible ? (
+        <Text>{description}</Text>
+      ) : (
+        <Text>{smallDescription}</Text>
+      )}
+
+      {smallDescription && (
+        <Button
+          size="sm"
+          rightIcon={<Icon as={isTextVisible ? FaChevronUp : FaChevronDown} />}
+          mt={2}
+          onClick={() => setIsTextVisible(!isTextVisible)}
+        >
+          Show {isTextVisible ? 'less' : 'more'}
+        </Button>
+      )}
     </LinkBox>
   )
 }

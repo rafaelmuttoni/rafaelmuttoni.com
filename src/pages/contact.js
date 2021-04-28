@@ -1,33 +1,48 @@
-import { Box, Button, Heading, Icon } from '@chakra-ui/react'
-import { FaEnvelope } from 'react-icons/fa'
+import { Box, Button, Heading, Link } from '@chakra-ui/react'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 export default function Contact() {
   return (
     <Box mt={20} w="100vh">
       <Heading as="h1" size="xl" mb={4}>
-        Contact
+        Get in touch
       </Heading>
+      <Box mb={4}>
+        If you wanna talk to me about a project, maybe working together or just
+        say hi you can either send an e-mail to{' '}
+        <Link
+          href="mailto:hi@rafaelmuttoni.com"
+          color="theme.main"
+          fontWeight="bold"
+        >
+          hi@rafaelmuttoni.com
+        </Link>{' '}
+        or hit me up at my social medias.
+      </Box>
       <Box>
-        If you want to hit me up quickly about a business matter:{' '}
         <Button
           as="a"
-          href="mailto:hi@rafaelmuttoni.com"
-          leftIcon={<Icon as={FaEnvelope} />}
-          bg="theme.main"
-          color="white"
-          _hover={{
-            bg: 'theme.secondary',
-          }}
-          _active={{
-            bg: 'theme.secondary',
-          }}
-          variant="solid"
+          href="https://www.linkedin.com/in/rafaelmuttoni/"
+          target="_blank"
           size="sm"
+          colorScheme="linkedin"
+          leftIcon={<FaLinkedin />}
+          mr={2}
         >
-          Email
+          Linkedin
+        </Button>
+
+        <Button
+          as="a"
+          href="https://www.twitter.com/rafael_muttoni/"
+          target="_blank"
+          size="sm"
+          colorScheme="twitter"
+          leftIcon={<FaTwitter />}
+        >
+          Twitter
         </Button>
       </Box>
-      <Box>Talk abo</Box>
     </Box>
   )
 }

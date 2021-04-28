@@ -2,7 +2,8 @@ const data = [
   {
     name: 'Terapeuta Pro',
     url: 'https://terapeutapro.com.br',
-    description:
+    description: `A software built to help therapists organize their schedule and finances. It has a good set of functionalities, from the most basic such as storing clients, services and appointments to creating your own calendar, so the clients can schedule on their own, where you can customize days and time range. You can also integrate your Telegram to receive daily reminders of appointments and expenses. Last but not least you can send reminders to your clients' (email or whatsapp) with a link that contains a token so the user can confirm or cancel the appointment by themselves. It's a SAAS integrated with Stripe.`,
+    smallDescription:
       'A software built to help therapists organize their schedule and finances.',
     tags: [
       'Fullstack',
@@ -21,7 +22,10 @@ const data = [
   {
     name: 'Recipe2Basket',
     url: 'https://recipe2basket.com',
-    description:
+    description: `Worked with the team at Zaply to develop a SAAS Web App for the food industry called Recipe2Basket. My main role was to develop this React App, which I had the opportunity to make it from scratch, it had to be a fully custom app because we needed to embed it in our clients' websites. In this Widget I used React with Styled-components. Besides this product, I also developed other React Apps to help our internal processes, where I used Material UI components.
+    We were a small team, so I got the chance to get out of my comfort zone, developing and fixing issues across all our software stack. I have worked with NodeJS (Express and Adonis), MySQL and AWS.
+     `,
+    smallDescription:
       'Worked with the team at Zaply to develop a SAAS Web App for the food industry called Recipe2Basket',
     tags: [
       'Fullstack',
