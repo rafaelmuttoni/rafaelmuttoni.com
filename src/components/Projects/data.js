@@ -17,6 +17,7 @@ const data = [
       'MySQL',
     ],
     image: 'terapeutapro.jpg',
+    type: 'fullstack',
   },
 
   {
@@ -41,6 +42,7 @@ const data = [
       'MySQL',
     ],
     image: 'zaply.jpg',
+    type: 'fullstack',
   },
 
   {
@@ -59,6 +61,7 @@ const data = [
       'styled-components',
     ],
     image: 'old-portfolio.jpg',
+    type: 'frontend',
   },
 
   {
@@ -77,6 +80,7 @@ const data = [
       'Lottie',
     ],
     image: 'dynamic.jpg',
+    type: 'frontend',
   },
 
   {
@@ -93,6 +97,7 @@ const data = [
       'CSS',
     ],
     image: 'fabio.jpg',
+    type: 'frontend',
   },
 ]
 
