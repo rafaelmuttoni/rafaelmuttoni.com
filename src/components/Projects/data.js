@@ -47,7 +47,7 @@ const data = [
 
   {
     name: 'Old Portfolio',
-    url: 'https://rafaelmuttoni.com',
+    url: 'https://oldportfolio-rafaelmuttoni.netlify.app',
     description:
       "This website's purpose is to serve me as my Resume and Portfolio.",
     tags: [
