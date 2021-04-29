@@ -2,9 +2,17 @@ import { Box, Divider, Link, Text } from '@chakra-ui/react'
 
 export default function Footer() {
   return (
-    <Box mt="100px" mb={4} textAlign="center">
+    <Box
+      mt="100px"
+      mb={4}
+      d="flex"
+      justifyContent="center"
+      alignItems="center"
+      textAlign="center"
+      flexDir="column"
+    >
       <Divider m="0 auto" w="75%" mb={8} />
-      <Box mb={6}>
+      <Box mb={6} w="75%">
         <Text fontSize="xs" as="i">
           This website is{' '}
           <Link
