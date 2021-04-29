@@ -22,7 +22,7 @@ export default function About() {
           I'm also very passioante about helping people get into coding, I
           believe it's a life-changing decision. By the way, if you want to get
           into coding or is struggling to learn feel free to{' '}
-          <ChakraLink to="/contact" as={Link} color="blue.500">
+          <ChakraLink href="/contact" as={Link} color="blue.500">
             get in touch with me
           </ChakraLink>
           , it will be my pleasure to help you.
