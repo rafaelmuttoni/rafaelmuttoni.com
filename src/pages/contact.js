@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 export default function Contact() {
   return (
-    <Box mt={20} w="100%">
+    <Box mt={{ base: 10, md: 15, lg: 20 }} w="100%">
       <Heading as="h1" size="xl" mb={4}>
         Get in touch
       </Heading>

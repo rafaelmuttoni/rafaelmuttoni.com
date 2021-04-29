@@ -3,22 +3,22 @@ import { Link } from 'next/link'
 
 export default function About() {
   return (
-    <Box mt={20} w="100%">
+    <Box mt={{ base: 10, md: 15, lg: 20 }} w="100%">
       <Heading as="h1" size="xl" mb={4}>
         About me 👨🏻‍💻
       </Heading>
       <Box mb={5} borderBottom="1px" borderColor="gray.200" pb={3}>
-        <Text fontSize="lg" mb={1}>
+        <Text fontSize="lg" mb={2}>
           Since I was a kid I've always been very passionate about creating.
           Combining that passion with my interest in technology led me to become
           a software developer.
         </Text>
-        <Text fontSize="lg" mb={1}>
+        <Text fontSize="lg" mb={2}>
           I love coding and all the process that involves creating software. I'm
           very focused and dedicated to get that awesome final result I know
           it's achievable.
         </Text>
-        <Text fontSize="lg" mb={1}>
+        <Text fontSize="lg" mb={2}>
           I'm also very passioante about helping people get into coding, I
           believe it's a life-changing decision. By the way, if you want to get
           into coding or is struggling to learn feel free to{' '}
