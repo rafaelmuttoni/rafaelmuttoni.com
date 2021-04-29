@@ -16,8 +16,7 @@ const data = [
       'Adonis',
       'MySQL',
     ],
-    image:
-      'https://res.cloudinary.com/rafaelmuttoni/image/upload/v1619721458/terapeutapro_o6ejzu.jpg',
+    image: 'v1619721458/terapeutapro_o6ejzu.jpg',
     type: 'fullstack',
   },
 
@@ -42,8 +41,7 @@ const data = [
       'Adonis',
       'MySQL',
     ],
-    image:
-      'https://res.cloudinary.com/rafaelmuttoni/image/upload/v1619721457/zaply_qhk2cw.jpg',
+    image: 'v1619721457/zaply_qhk2cw.jpg',
     type: 'fullstack',
   },
 
@@ -62,8 +60,7 @@ const data = [
       'GraphQL',
       'styled-components',
     ],
-    image:
-      'https://res.cloudinary.com/rafaelmuttoni/image/upload/v1619721457/old-portfolio_w1nnv4.jpg',
+    image: 'v1619721457/old-portfolio_w1nnv4.jpg',
     type: 'frontend',
   },
 
@@ -82,8 +79,7 @@ const data = [
       'Tailwindcss',
       'Lottie',
     ],
-    image:
-      'https://res.cloudinary.com/rafaelmuttoni/image/upload/v1619721457/dynamic_gymryr.jpg',
+    image: 'v1619721457/dynamic_gymryr.jpg',
     type: 'frontend',
   },
 
@@ -100,8 +96,7 @@ const data = [
       'HTML5',
       'CSS',
     ],
-    image:
-      'https://res.cloudinary.com/rafaelmuttoni/image/upload/v1619721457/fabio_jusgcl.jpg',
+    image: 'v1619721457/fabio_jusgcl.jpg',
     type: 'frontend',
   },
 ]

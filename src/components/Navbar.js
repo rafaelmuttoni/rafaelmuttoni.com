@@ -44,7 +44,7 @@ export default function Navbar() {
               >
                 <Avatar
                   name="Rafael Muttoni"
-                  src="/profile.jpeg"
+                  src="https://res.cloudinary.com/rafaelmuttoni/image/upload/c_scale,w_150/v1619721469/profile_szmefv.jpg"
                   mr={3}
                   transition="ease-in 200ms"
                   _hover={{
