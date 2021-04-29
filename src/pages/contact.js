@@ -12,7 +12,7 @@ export default function Contact() {
         say hi you can either send an e-mail to{' '}
         <Link
           href="mailto:hi@rafaelmuttoni.com"
-          color="theme.main"
+          color="blue.500"
           fontWeight="bold"
         >
           hi@rafaelmuttoni.com
@@ -25,7 +25,14 @@ export default function Contact() {
           href="https://www.linkedin.com/in/rafaelmuttoni/"
           target="_blank"
           size="sm"
-          colorScheme="linkedin"
+          bg="blue.500"
+          color="white"
+          _hover={{
+            bg: 'blue.600',
+          }}
+          _active={{
+            bg: 'blue.600',
+          }}
           leftIcon={<FaLinkedin />}
           mr={2}
         >
@@ -37,7 +44,14 @@ export default function Contact() {
           href="https://www.twitter.com/rafael_muttoni/"
           target="_blank"
           size="sm"
-          colorScheme="twitter"
+          bg="blue.500"
+          color="white"
+          _hover={{
+            bg: 'blue.600',
+          }}
+          _active={{
+            bg: 'blue.600',
+          }}
           leftIcon={<FaTwitter />}
         >
           Twitter

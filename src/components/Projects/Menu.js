@@ -33,13 +33,13 @@ export default function ProjectsMenu({ filter, setFilter, ...rest }) {
         aria-label="Options"
         leftIcon={<Icon as={FaFilter} />}
         variant="outline"
-        bg="theme.main"
+        bg="blue.500"
         color="white"
         _hover={{
-          bg: 'theme.secondary',
+          bg: 'blue.600',
         }}
         _active={{
-          bg: 'theme.secondary',
+          bg: 'blue.600',
         }}
         {...rest}
       >

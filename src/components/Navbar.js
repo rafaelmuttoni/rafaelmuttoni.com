@@ -27,7 +27,7 @@ function Emoji({ emoji }) {
 export default function Navbar() {
   return (
     <Box>
-      <Box w="100%" h="15px" bg="theme.main" />
+      <Box w="100%" h="15px" bg="blue.500" />
       <Container
         maxW="container.md"
         minH="125px"
