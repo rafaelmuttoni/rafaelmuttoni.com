@@ -38,12 +38,7 @@ export default function SingleProject({ project }) {
       _hover={{ boxShadow: 'md' }}
     >
       <Box mb={2}>
-        <ChakraImage
-          src={`/images/projects/${image}`}
-          width={1920}
-          height={936}
-          borderRadius="sm"
-        />
+        <ChakraImage src={image} width={1920} height={936} borderRadius="sm" />
       </Box>
       <Heading mb={2}>
         <LinkOverlay href={url} target="_blank">
