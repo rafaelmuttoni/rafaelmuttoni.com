@@ -22,7 +22,7 @@ export default function ProjectsMenu({ filter, setFilter, ...rest }) {
   const handleSetFilter = (name) => {
     setFilter(name)
     toast({
-      title: `Showing ${parseFilter(name)} projects.`,
+      title: `Showing ${parseFilter(name)} projects`,
     })
   }
 

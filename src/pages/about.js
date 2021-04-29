@@ -3,7 +3,7 @@ import { Link } from 'next/link'
 
 export default function About() {
   return (
-    <Box mt={20} w="100vh">
+    <Box mt={20} w="100%">
       <Heading as="h1" size="xl" mb={4}>
         About me 👨🏻‍💻
       </Heading>
