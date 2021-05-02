@@ -84,6 +84,15 @@ const data = [
   },
 
   {
+    name: 'Arquitetura da Alma',
+    url: 'https://arquiteturadaalma.com',
+    description: `Website made for a therapist, it's purpose is to have more authority and sell online courses.`,
+    tags: ['Front-end', 'Wordpress', 'Elementor', 'HTML5', 'CSS'],
+    image: 'v1619980881/download_z3toga.jpg',
+    type: 'frontend',
+  },
+
+  {
     name: 'Saúde dos Pés',
     url: 'http://cirurgiaminimanope.com.br/',
     description:
