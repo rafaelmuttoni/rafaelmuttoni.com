@@ -21,6 +21,31 @@ const data = [
   },
 
   {
+    name: 'AdvSind Pro',
+    url: 'https://github.com/rafaelmuttoni/advsindpro-frontend',
+    description: `A Web App built for a Condo Manager who also works as a Lawyer.
+    This project was built with React and Material UI (using Material Kit's boilerplate). It's using Axios to communicate with the API, FullCalendar (with Moment) for an awesome Calendar/Schedule and React-pdf for automating PDF creation.
+
+    Some cool features for improved User Experience: 1️⃣ The application has a Context with a State that stores a information about which condo is selected (the default is All Condos), so the user can select a specific condo and all the dashboard information will be related to the selected condo. 2️⃣ When the user is creating a condo, after inputing the zip code the application makes a GET request to Via Cep's Api to get address information and automatically fills some of the inputs.
+    `,
+    smallDescription:
+      'A Web App built for a Condo Manager who also works as a Lawyer.',
+    tags: [
+      'Fullstack',
+      'Javascript',
+      'HTML5',
+      'CSS',
+      'React',
+      'Material UI',
+      'Node',
+      'Adonis',
+      'PostgresSQL',
+    ],
+    image: 'v1620484936/AdvSind_Pro_njxpls.jpg',
+    type: 'fullstack',
+  },
+
+  {
     name: 'Recipe2Basket',
     url: 'https://recipe2basket.com',
     description: `Worked with the team at Zaply to develop a SAAS Web App for the food industry called Recipe2Basket. My main role was to develop this React App, which I had the opportunity to make it from scratch, it had to be a fully custom app because we needed to embed it in our clients' websites. In this Widget I used React with Styled-components. Besides this product, I also developed other React Apps to help our internal processes, where I used Material UI components.
