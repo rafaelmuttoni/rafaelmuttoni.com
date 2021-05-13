@@ -14,14 +14,14 @@ export default function About() {
           a software developer.
         </Text>
         <Text fontSize="lg" mb={2}>
-          I love coding and all the process that involves creating software. I'm
-          very focused and dedicated to get that awesome final result I know
+          I love coding and all the process that involves developing software.
+          I'm very focused and dedicated to get that awesome final result I know
           it's achievable.
         </Text>
         <Text fontSize="lg" mb={2}>
           I'm also very passioante about helping people get into coding, I
-          believe it's a life-changing decision. By the way, if you want to get
-          into coding or is struggling to learn feel free to{' '}
+          believe it's a life-changing decision. If you are struggling and need
+          some help feel free to{' '}
           <ChakraLink href="/contact" as={Link} color="blue.500">
             get in touch with me
           </ChakraLink>

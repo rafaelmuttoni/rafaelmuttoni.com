@@ -22,8 +22,8 @@ export default function Footer() {
             color="blue.500"
           >
             open source
-          </Link>
-          , and was built with{' '}
+          </Link>{' '}
+          and was built with{' '}
           <Link
             href="https://chakra-ui.com/"
             target="_blank"
