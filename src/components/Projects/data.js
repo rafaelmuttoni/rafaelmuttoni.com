@@ -2,7 +2,7 @@ const data = [
   {
     name: 'Weekup',
     url: 'https://weekup.io',
-    description: `A Web App to help people build and keep up with habits, refleting once a week. The app was built in partnership with Abdallah Absi, who idealized this method. It was previously being implemented through a Google Sheet. In the Web App we developed extra features, such as setting your habit's frequency to help you organize your day, adding an Accountability Partner to help you keep up with your habits and many others. Feel free to try the app, we are really proud with the result so far! It's a work in progress, we will wait for your feedbacks.`,
+    description: `A Web App to help people build and keep up with habits, refleting once a week. The app was built in partnership with Abdallah Absi, who idealized this method. It was previously being implemented through a Google Sheet. In the Web App we developed extra features, such as setting your habit's frequency to help you organize your day, adding an Accountability Partner to help you keep up with your habits and many others. Feel free to try the app, we are really proud with the result so far! FYI: it's a work in progress, we will wait for your feedbacks.`,
     smallDescription:
       'A Web App to help people build and keep up with habits, refleting once a week.',
     tags: [
@@ -16,6 +16,7 @@ const data = [
       'Node',
       'Adonis',
       'MySQL',
+      'DigitalOcean',
       'Sendgrid',
       'Twilio',
     ],
@@ -39,6 +40,8 @@ const data = [
       'Node',
       'Adonis',
       'MySQL',
+      'AWS',
+      'Stripe',
     ],
     image: 'v1619721458/terapeutapro_o6ejzu.jpg',
     type: 'fullstack',
