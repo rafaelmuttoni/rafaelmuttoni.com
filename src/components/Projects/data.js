@@ -1,5 +1,29 @@
 const data = [
   {
+    name: 'Weekup',
+    url: 'https://weekup.io',
+    description: `A Web App to help people build and keep up with habits, refleting once a week. The app was built in partnership with Abdallah Absi, who idealized this method. It was previously being implemented through a Google Sheet. In the Web App we developed extra features, such as setting your habit's frequency to help you organize your day, adding an Accountability Partner to help you keep up with your habits and many others. Feel free to try the app, we are really proud with the result so far! It's a work in progress, we will wait for your feedbacks.`,
+    smallDescription:
+      'A Web App to help people build and keep up with habits, refleting once a week.',
+    tags: [
+      'Fullstack',
+      'Javascript',
+      'HTML5',
+      'CSS',
+      'React',
+      'Bootstrap',
+      'styled-components',
+      'Node',
+      'Adonis',
+      'MySQL',
+      'Sendgrid',
+      'Twilio',
+    ],
+    image: 'v1621554277/Weekup_hjbp7b.jpg',
+    type: 'fullstack',
+  },
+
+  {
     name: 'Terapeuta Pro',
     url: 'https://terapeutapro.com.br',
     description: `A software built to help therapists organize their schedule and finances. It has a good set of functionalities, from the most basic such as storing clients, services and appointments to creating your own calendar, so the clients can schedule on their own, where you can customize days and time range. You can also integrate your Telegram to receive daily reminders of appointments and expenses. Last but not least you can send reminders to your clients' (email or whatsapp) with a link that contains a token so the user can confirm or cancel the appointment by themselves. It's a SAAS integrated with Stripe.`,
